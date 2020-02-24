@@ -1,0 +1,8 @@
+vendor
+var
+.env
+node_modules
+public/build/app.js
+public/build/vendors~app.css
+public/build/vendor-app.js
+public/movies

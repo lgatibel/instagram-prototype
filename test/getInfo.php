@@ -1,0 +1,9 @@
+<?php
+//...
+require_once('../config/bootstrap.php');
+use Mhor\MediaInfo\MediaInfo;
+//...
+$mediaInfo = new MediaInfo();
+$mediaInfoContainer = $mediaInfo->getInfo('../public/movies/Watchmen-ep-01.mkv');
+// echo($mediaInfoContainer);
+//...
